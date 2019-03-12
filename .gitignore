@@ -22,5 +22,9 @@ _autosave-*
 *.ses
 
 # Exported BOM files
-*.xml
-*.csv
+# *.xml
+# *.csv
+
+# Exported gerber and drill filesfiles
+*.gbr
+*.drl
