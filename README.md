@@ -8,7 +8,8 @@ Hardware for 80dB amp
 ## TODO
 ### Schematic
 - Find suitable LDOs (5V, -5V, 3.3V), all should be low noise
-- USB interface
+- find suitable flash memory
+- USB interface - what do do with ID pin?
 - GPIO
 - Amp
 
