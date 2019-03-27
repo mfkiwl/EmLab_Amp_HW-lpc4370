@@ -1,19 +1,19 @@
 # EmLab Amp HW
-Hardware for 70dB amp
+Hardware for 80dB amp
 
 ## Notes
-- digital and analog parts should be shielded from each other
-- might be worth to create separate power rails for digital and analog
-- main PSU should be inspired by [USBSymC5V symetric PSU](https://github.com/LoaDy588/USBCSym5V)
+- Analog and Digital power should be separate
+- Maybe even different grounds 
 
 ## TODO
-- talk to Tom(the SW guy)
-- talk to Samo(Analog)
-- `General` - need to solve KiCAD library sharing between computers
-- look into proper USB stuff
-- General Block layout
-- General PCB layout
+### Schematic
+- Find suitable LDOs (5V, -5V, 3.3V), all should be low noise
+- USB interface
+- GPIO
+- Amp
 
+### PCB
+- General layout/size
 
 ## Links
 - [LPC Link 2 Schematic](https://www.nxp.com/downloads/en/schematics/LPC-Link2-SCH.pdf)

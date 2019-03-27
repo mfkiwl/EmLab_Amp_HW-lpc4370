@@ -1,4 +1,100 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:EmLab_Amp-cache
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "EmLab 80dB Amp"
+Date ""
+Rev ""
+Comp "O. Pecák"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2825 2075 700  500 
+U 5C9B72A0
+F0 "Power" 50
+F1 "Power.sch" 50
+F2 "VIN" I L 2825 2325 50 
+F3 "+5V" I R 3525 2150 50 
+F4 "-5V" I R 3525 2500 50 
+F5 "+3V3" I R 3525 2325 50 
+$EndSheet
+$Comp
+L power:+5V #PWR?
+U 1 1 5C9F5005
+P 3650 2100
+F 0 "#PWR?" H 3650 1950 50  0001 C CNN
+F 1 "+5V" H 3665 2273 50  0000 C CNN
+F 2 "" H 3650 2100 50  0001 C CNN
+F 3 "" H 3650 2100 50  0001 C CNN
+	1    3650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9F5066
+P 3875 2100
+F 0 "#PWR?" H 3875 1950 50  0001 C CNN
+F 1 "+3.3V" H 3890 2273 50  0000 C CNN
+F 2 "" H 3875 2100 50  0001 C CNN
+F 3 "" H 3875 2100 50  0001 C CNN
+	1    3875 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR?
+U 1 1 5C9F50C7
+P 3650 2600
+F 0 "#PWR?" H 3650 2700 50  0001 C CNN
+F 1 "-5V" H 3665 2773 50  0000 C CNN
+F 2 "" H 3650 2600 50  0001 C CNN
+F 3 "" H 3650 2600 50  0001 C CNN
+	1    3650 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3525 2150 3650 2150
+Wire Wire Line
+	3650 2150 3650 2100
+Wire Wire Line
+	3525 2500 3650 2500
+Wire Wire Line
+	3650 2500 3650 2600
+Wire Wire Line
+	3525 2325 3875 2325
+Wire Wire Line
+	3875 2325 3875 2100
+$Sheet
+S 5150 2150 1375 450 
+U 5C9F50F8
+F0 "LPC4370-JTAG-PWR-MISC" 50
+F1 "LPC4370-JTAG-PWR-MISC.sch" 50
+F2 "+3V3" I R 6525 2250 50 
+F3 "I2C_SCL" I R 6525 2400 50 
+F4 "I2C_SDA" I R 6525 2500 50 
+F5 "ADC0" I L 5150 2250 50 
+F6 "ADC1" I L 5150 2325 50 
+F7 "ADC2" I L 5150 2400 50 
+F8 "ADC3" I L 5150 2475 50 
+$EndSheet
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9BF5B1
+P 6650 2175
+F 0 "#PWR?" H 6650 2025 50  0001 C CNN
+F 1 "+3.3V" H 6665 2348 50  0000 C CNN
+F 2 "" H 6650 2175 50  0001 C CNN
+F 3 "" H 6650 2175 50  0001 C CNN
+	1    6650 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2175 6650 2250
+Wire Wire Line
+	6650 2250 6525 2250
 $EndSCHEMATC
