@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:EmLab_Amp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "EmLab 80dB Amp"
 Date ""
 Rev ""
@@ -211,7 +210,7 @@ L Device:L L?
 U 1 1 5B7CBADC
 P 6300 2525
 F 0 "L?" V 6450 2525 50  0000 C CNN
-F 1 "2.2uH" V 6375 2525 50  0000 C CNN
+F 1 "4u7" V 6375 2525 50  0000 C CNN
 F 2 "Inductor_SMD:L_7.3x7.3_H3.5" H 6300 2525 50  0001 C CNN
 F 3 "~" H 6300 2525 50  0001 C CNN
 	1    6300 2525
@@ -419,7 +418,7 @@ L Device:L L?
 U 1 1 5B7EA136
 P 8825 4575
 F 0 "L?" H 8875 4600 50  0000 L CNN
-F 1 "3.3uH" H 8875 4525 50  0000 L CNN
+F 1 "5u6" H 8875 4525 50  0000 L CNN
 F 2 "Inductor_SMD:L_7.3x7.3_H3.5" H 8825 4575 50  0001 C CNN
 F 3 "~" H 8825 4575 50  0001 C CNN
 	1    8825 4575
@@ -841,9 +840,9 @@ F 3 "~" H 2600 2875 50  0001 C CNN
 	1    2600 2875
 	1    0    0    -1  
 $EndComp
-Text Notes 6875 850  0    197  ~ 0
+Text Notes 5675 2025 0    197  ~ 0
 Split-rail DC/DC Converter
-Text Notes 825  900  0    197  ~ 0
+Text Notes 700  2125 0    197  ~ 0
 Output LDO Regulators
 Text HLabel 5275 2525 0    50   Input ~ 0
 VIN

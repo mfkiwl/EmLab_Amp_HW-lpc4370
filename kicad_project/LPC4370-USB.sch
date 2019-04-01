@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:EmLab_Amp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -453,4 +452,7 @@ Text Label 5050 3700 0    50   ~ 0
 USB0_D-
 Text Label 5050 3775 0    50   ~ 0
 USB0_D+
+NoConn ~ 6175 3725
+Text Notes 5250 4000 0    50   ~ 0
+ID Pin left floating\n-> slave device
 $EndSCHEMATC
