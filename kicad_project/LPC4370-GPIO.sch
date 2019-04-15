@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -73,14 +73,6 @@ Wire Wire Line
 	1775 4500 1675 4500
 Wire Wire Line
 	2925 2800 3025 2800
-Text Label 1675 2800 2    50   ~ 0
-SSP1_MISO
-Text Label 1675 2900 2    50   ~ 0
-SSP1_MOSI
-Text Label 1675 4500 2    50   ~ 0
-SSP1_SEL
-Text Label 3025 2800 0    50   ~ 0
-SSP1_SCK
 Text Label 1675 4800 2    50   ~ 0
 GPIO_0
 Wire Wire Line
@@ -243,27 +235,19 @@ Text Label 8650 2600 2    50   ~ 0
 GPIO_2
 Text Label 8650 2700 2    50   ~ 0
 GPIO_3
-Text Label 8650 2800 2    50   ~ 0
-GPIO_4
-Text Label 8650 2900 2    50   ~ 0
-GPIO_5
 Text Label 9400 2600 0    50   ~ 0
-SSP1_MISO
+GPIO_4
 Text Label 9400 2700 0    50   ~ 0
-SSP1_MOSI
-Text Label 9400 2800 0    50   ~ 0
-SSP1_SEL
-Text Label 9400 2900 0    50   ~ 0
-SSP1_SCK
+GPIO_5
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J?
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5C9F5E38
-P 8975 2600
-F 0 "J?" H 9025 3117 50  0000 C CNN
-F 1 "GPIO_EXP" H 9025 3026 50  0000 C CNN
-F 2 "" H 8975 2600 50  0001 C CNN
-F 3 "~" H 8975 2600 50  0001 C CNN
-	1    8975 2600
+P 8975 2500
+F 0 "J?" H 9025 3017 50  0000 C CNN
+F 1 "GPIO_EXP" H 9025 2926 50  0000 C CNN
+F 2 "" H 8975 2500 50  0001 C CNN
+F 3 "~" H 8975 2500 50  0001 C CNN
+	1    8975 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -275,10 +259,6 @@ Wire Wire Line
 Wire Wire Line
 	8775 2700 8650 2700
 Wire Wire Line
-	8775 2800 8650 2800
-Wire Wire Line
-	8775 2900 8650 2900
-Wire Wire Line
 	9275 2400 9400 2400
 Wire Wire Line
 	9275 2500 9400 2500
@@ -286,10 +266,6 @@ Wire Wire Line
 	9275 2600 9400 2600
 Wire Wire Line
 	9275 2700 9400 2700
-Wire Wire Line
-	9275 2800 9400 2800
-Wire Wire Line
-	9275 2900 9400 2900
 Text HLabel 9400 2300 2    50   Input ~ 0
 +3V3
 Text HLabel 8650 2300 0    50   Input ~ 0
@@ -297,33 +273,33 @@ Text HLabel 8650 2300 0    50   Input ~ 0
 $Comp
 L power:GND #PWR0158
 U 1 1 5C9FF068
-P 8725 3075
-F 0 "#PWR0158" H 8725 2825 50  0001 C CNN
-F 1 "GND" H 8730 2902 50  0000 C CNN
-F 2 "" H 8725 3075 50  0001 C CNN
-F 3 "" H 8725 3075 50  0001 C CNN
-	1    8725 3075
+P 8725 2875
+F 0 "#PWR0158" H 8725 2625 50  0001 C CNN
+F 1 "GND" H 8730 2702 50  0000 C CNN
+F 2 "" H 8725 2875 50  0001 C CNN
+F 3 "" H 8725 2875 50  0001 C CNN
+	1    8725 2875
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0159
 U 1 1 5C9FF09D
-P 9325 3075
-F 0 "#PWR0159" H 9325 2825 50  0001 C CNN
-F 1 "GND" H 9330 2902 50  0000 C CNN
-F 2 "" H 9325 3075 50  0001 C CNN
-F 3 "" H 9325 3075 50  0001 C CNN
-	1    9325 3075
+P 9325 2875
+F 0 "#PWR0159" H 9325 2625 50  0001 C CNN
+F 1 "GND" H 9330 2702 50  0000 C CNN
+F 2 "" H 9325 2875 50  0001 C CNN
+F 3 "" H 9325 2875 50  0001 C CNN
+	1    9325 2875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9275 3000 9325 3000
+	9275 2800 9325 2800
 Wire Wire Line
-	9325 3000 9325 3075
+	9325 2800 9325 2875
 Wire Wire Line
-	8775 3000 8725 3000
+	8775 2800 8725 2800
 Wire Wire Line
-	8725 3000 8725 3075
+	8725 2800 8725 2875
 Wire Wire Line
 	8650 2300 8775 2300
 Wire Wire Line
@@ -442,4 +418,12 @@ F 3 "" H 6900 5600 50  0001 C CNN
 	1    6900 5600
 	1    0    0    -1  
 $EndComp
+Text HLabel 1675 2800 0    50   Input ~ 0
+SSP1_MISO
+Text HLabel 1675 2900 0    50   Input ~ 0
+SSP1_MOSI
+Text HLabel 1675 4500 0    50   Input ~ 0
+SSP1_SEL
+Text HLabel 3025 2800 2    50   Input ~ 0
+SSP1_SCK
 $EndSCHEMATC

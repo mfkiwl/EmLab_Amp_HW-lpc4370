@@ -13,6 +13,7 @@ Hardware for 80dB amp
 - General layout/size
 
 ## Links
+- [BOM](https://octopart.com/bom-tool/Xo4yGKYB)
 - [LPC Link 2 Schematic](https://www.nxp.com/downloads/en/schematics/LPC-Link2-SCH.pdf)
 - [BGA PCB Guidelines](https://www.nxp.com/docs/en/application-note/AN10778.pdf)
 - [Proper grounding #1](https://www.analog.com/en/analog-dialogue/articles/staying-well-grounded.html)
@@ -23,3 +24,4 @@ Hardware for 80dB amp
 - [LT3094 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf)
 - [LT3045 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf)
 - [TPS7A80 Datasheet](http://www.ti.com/lit/ds/symlink/tps7a80.pdf)
+- [THS4131 Datasheet](http://www.ti.com/lit/ds/symlink/ths4131.pdf)
