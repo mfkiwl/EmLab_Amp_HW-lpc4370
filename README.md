@@ -7,10 +7,11 @@ Hardware for 80dB amp
 
 ## TODO
 ### Schematic
-- Amp
+- find suitable BNC connector, find another USB-C connector
 
 ### PCB
-- General layout/size
+- Setup design rules for Gatema
+- Start layout
 
 ## Links
 - [BOM](https://octopart.com/bom-tool/Xo4yGKYB)
@@ -25,3 +26,4 @@ Hardware for 80dB amp
 - [LT3045 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf)
 - [TPS7A80 Datasheet](http://www.ti.com/lit/ds/symlink/tps7a80.pdf)
 - [THS4131 Datasheet](http://www.ti.com/lit/ds/symlink/ths4131.pdf)
+- [LMH6518 Datasheet](http://www.ti.com/lit/ds/symlink/lmh6518.pdf)
