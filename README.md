@@ -3,15 +3,17 @@ Hardware for 80dB amp
 
 ## Notes
 - Split and/or properly designed ground is critical
-- Should amp be connected to SPI?
 
 ## TODO
+- complete BOM, including passives
+
 ### Schematic
-- find suitable BNC connector, find another USB-C connector
+- nothing
 
 ### PCB
-- Setup design rules for Gatema
-- Start layout
+- PSU part
+- Final layout
+- some fancy graphics
 
 ## Links
 - [BOM](https://octopart.com/bom-tool/Xo4yGKYB)
