@@ -1242,7 +1242,7 @@ U 1 1 5CE653B7
 P 3825 1925
 F 0 "TP5" H 3883 2045 50  0000 L CNN
 F 1 "5V" H 3883 1954 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4025 1925 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4025 1925 50  0001 C CNN
 F 3 "~" H 4025 1925 50  0001 C CNN
 	1    3825 1925
 	1    0    0    -1  
@@ -1258,7 +1258,7 @@ U 1 1 5CE7EE84
 P 3825 3400
 F 0 "TP6" H 3883 3520 50  0000 L CNN
 F 1 "-5V" H 3883 3429 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4025 3400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4025 3400 50  0001 C CNN
 F 3 "~" H 4025 3400 50  0001 C CNN
 	1    3825 3400
 	1    0    0    -1  
@@ -1274,7 +1274,7 @@ U 1 1 5CE8C16C
 P 3125 5175
 F 0 "TP4" H 3183 5295 50  0000 L CNN
 F 1 "3V3" H 3183 5204 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3325 5175 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3325 5175 50  0001 C CNN
 F 3 "~" H 3325 5175 50  0001 C CNN
 	1    3125 5175
 	1    0    0    -1  
