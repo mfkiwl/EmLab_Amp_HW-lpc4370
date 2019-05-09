@@ -8,9 +8,9 @@ Sheet 1 6
 Title "EmLab 80dB Amp Block Schematic"
 Date "2019-04-17"
 Rev "1"
-Comp "O. Pecák"
+Comp ""
 Comment1 "FI MUNI"
-Comment2 ""
+Comment2 "O. Pecák"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -212,8 +212,6 @@ Wire Wire Line
 	5200 1050 5200 900 
 Wire Wire Line
 	1675 2450 1250 2450
-Wire Wire Line
-	1250 2525 1250 2450
 $Comp
 L power:+3.3V #PWR01
 U 1 1 5CBA152A
@@ -273,7 +271,6 @@ Wire Wire Line
 Connection ~ 2725 2350
 Wire Wire Line
 	2725 2350 3100 2350
-Connection ~ 1250 2450
 Wire Wire Line
 	1250 2450 1250 2300
 $Comp
