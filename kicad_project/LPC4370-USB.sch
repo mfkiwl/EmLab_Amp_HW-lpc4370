@@ -441,10 +441,6 @@ Wire Wire Line
 Connection ~ 2175 1425
 Wire Wire Line
 	2175 1425 2375 1425
-Text Label 3250 2450 0    50   ~ 0
-USB0_D-
-Text Label 3250 2525 0    50   ~ 0
-USB0_D+
 NoConn ~ 4075 2475
 Text Notes 4475 2825 0    50   ~ 0
 ID Pin left floating\n-> slave device
