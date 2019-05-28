@@ -1,19 +1,17 @@
 # EmLab Amp HW
-Hardware for 80dB amp
+Hardware for 80dB amp + digitizer
 
 ## Notes
-- Split and/or properly designed ground is critical
+- nothing
 
 ## TODO
-- complete BOM, including passives
+- manufacture prototype
 
 ### Schematic
 - nothing
 
 ### PCB
-- PSU part
-- Final layout
-- some fancy graphics
+- nothing
 
 ## Links
 - [BOM](https://octopart.com/bom-tool/Xo4yGKYB)
