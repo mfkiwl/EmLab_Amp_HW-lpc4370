@@ -1,6 +1,8 @@
 # EmLab Amp HW
 Hardware for 80dB amp + digitizer
 
+![Current Revision](img.png)
+
 ## Notes
 - nothing
 
