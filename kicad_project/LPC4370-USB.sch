@@ -22,7 +22,7 @@ AR Path="/5C9C4DE3" Ref="J2"  Part="1"
 AR Path="/5C9C4C7C/5C9C4DE3" Ref="J2"  Part="1" 
 F 0 "J2" H 1305 4292 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 1305 4201 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 1350 2725 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1350 2725 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1350 2725 50  0001 C CNN
 	1    1200 2725
 	1    0    0    -1  

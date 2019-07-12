@@ -60,4 +60,4 @@ else:
                 os.rename(g, new_g)
                 break
 
-raw_input('Press Enter to exit.')
+#raw_input('Press Enter to exit.')
