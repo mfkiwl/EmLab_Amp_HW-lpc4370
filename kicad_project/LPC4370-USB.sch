@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:EmLab_Amp-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
@@ -15,12 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle J2
+L EmLab_Amp-rescue:USB_C_Receptacle-Connector J2
 U 1 1 5C9C4DE3
 P 1200 2725
+AR Path="/5C9C4DE3" Ref="J2"  Part="1" 
+AR Path="/5C9C4C7C/5C9C4DE3" Ref="J2"  Part="1" 
 F 0 "J2" H 1305 4292 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 1305 4201 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1350 2725 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 1350 2725 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1350 2725 50  0001 C CNN
 	1    1200 2725
 	1    0    0    -1  
