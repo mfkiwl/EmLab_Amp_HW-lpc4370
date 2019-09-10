@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:EmLab_Amp-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
@@ -122,7 +122,7 @@ U 1 1 5C9EFA2A
 P 4425 2300
 F 0 "JP1" V 4379 2348 50  0000 L CNN
 F 1 " " V 4470 2348 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 4425 2300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right" H 4425 2300 50  0001 C CNN
 F 3 "~" H 4425 2300 50  0001 C CNN
 	1    4425 2300
 	0    1    1    0   

@@ -4,10 +4,10 @@ Hardware for 80dB amp + digitizer
 ![Current Revision](img.png)
 
 ## Notes
-- nothing
+- the TPS65131 regulator does some weird stuff - maybe exchange for similar AD part?
 
 ## TODO
-- manufacture prototype
+- debug prototype
 
 ### Schematic
 - nothing
@@ -25,7 +25,7 @@ Hardware for 80dB amp + digitizer
 - [W25Q80BVSSIG Datasheet](https://openwrt.org/_media/media/datasheets/flash/w25q80bv.pdf)
 - [IS25LP080D-JNLA3-TR](https://cz.mouser.com/ProductDetail/ISSI/IS25LP080D-JNLA3-TR?qs=sGAEpiMZZMuIiYGg9i1FDOSOPk6CUsSSrSt5PkokTOpe%2F19c4PAU8Q%3D%3D)
 - [LT3094 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf)
-- [LT3045 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf)
+- [LT3045 Datasheet] (https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf)
 - [TPS7A80 Datasheet](http://www.ti.com/lit/ds/symlink/tps7a80.pdf)
 - [THS4131 Datasheet](http://www.ti.com/lit/ds/symlink/ths4131.pdf)
 - [LMH6518 Datasheet](http://www.ti.com/lit/ds/symlink/lmh6518.pdf)

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:EmLab_Amp-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
@@ -14,19 +14,6 @@ Comment2 "O. Pecák"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L EmLab_Amp-rescue:USB_C_Receptacle-Connector J2
-U 1 1 5C9C4DE3
-P 1200 2725
-AR Path="/5C9C4DE3" Ref="J2"  Part="1" 
-AR Path="/5C9C4C7C/5C9C4DE3" Ref="J2"  Part="1" 
-F 0 "J2" H 1305 4292 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 1305 4201 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1350 2725 50  0001 C CNN
-F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1350 2725 50  0001 C CNN
-	1    1200 2725
-	1    0    0    -1  
-$EndComp
 $Comp
 L LoaDy:LPC4370-TFBGA100 U5
 U 2 1 5C9C4ED3
@@ -58,57 +45,29 @@ Wire Wire Line
 Connection ~ 5775 2575
 Wire Wire Line
 	5775 2575 5775 2675
-Wire Wire Line
-	1800 1425 1875 1425
-Wire Wire Line
-	1800 1525 1875 1525
-Wire Wire Line
-	1875 1525 1875 1425
 Connection ~ 1875 1425
 Wire Wire Line
-	1800 1625 1875 1625
-Wire Wire Line
-	1875 1625 1875 1525
-Connection ~ 1875 1525
-Wire Wire Line
 	1800 1725 1875 1725
-Wire Wire Line
-	1875 1725 1875 1625
-Connection ~ 1875 1625
 $Comp
 L power:GND #PWR0145
 U 1 1 5C9C9C44
-P 1100 4450
-F 0 "#PWR0145" H 1100 4200 50  0001 C CNN
-F 1 "GND" H 1105 4277 50  0000 C CNN
-F 2 "" H 1100 4450 50  0001 C CNN
-F 3 "" H 1100 4450 50  0001 C CNN
-	1    1100 4450
+P 1100 3350
+F 0 "#PWR0145" H 1100 3100 50  0001 C CNN
+F 1 "GND" H 1105 3177 50  0000 C CNN
+F 2 "" H 1100 3350 50  0001 C CNN
+F 3 "" H 1100 3350 50  0001 C CNN
+	1    1100 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 4325 1300 4400
+	1100 3300 1100 3350
 Wire Wire Line
-	1300 4400 1200 4400
+	900  3300 900  3225
+Connection ~ 1100 3300
 Wire Wire Line
-	1100 4400 1100 4450
+	1200 3225 1200 3300
 Wire Wire Line
-	1100 4400 1000 4400
-Wire Wire Line
-	900  4400 900  4325
-Connection ~ 1100 4400
-Wire Wire Line
-	1000 4325 1000 4400
-Connection ~ 1000 4400
-Wire Wire Line
-	1000 4400 900  4400
-Wire Wire Line
-	1100 4325 1100 4400
-Wire Wire Line
-	1200 4325 1200 4400
-Connection ~ 1200 4400
-Wire Wire Line
-	1200 4400 1100 4400
+	1200 3300 1100 3300
 Text HLabel 7175 2175 2    50   Input ~ 0
 +3V3
 $Comp
@@ -508,4 +467,19 @@ Wire Wire Line
 Connection ~ 2725 2525
 Wire Wire Line
 	2725 2525 3075 2525
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J2
+U 1 1 5D5B9D21
+P 1200 2325
+F 0 "J2" H 1305 3192 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1305 3101 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1350 2325 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1350 2325 50  0001 C CNN
+	1    1200 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1875 1425 1875 1725
+Wire Wire Line
+	900  3300 1100 3300
 $EndSCHEMATC

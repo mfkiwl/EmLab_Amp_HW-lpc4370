@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:EmLab_Amp-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
