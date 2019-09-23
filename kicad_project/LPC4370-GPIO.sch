@@ -6,8 +6,8 @@ $Descr User 8268 5827
 encoding utf-8
 Sheet 5 6
 Title "LPC4370 GPIO, Memory"
-Date "2019-04-17"
-Rev "1"
+Date "2019-09-23"
+Rev "2"
 Comp ""
 Comment1 "FI MUNI"
 Comment2 "O. Pecák"
@@ -71,8 +71,6 @@ Wire Wire Line
 	1125 2025 1025 2025
 Wire Wire Line
 	1125 3625 1025 3625
-Wire Wire Line
-	2275 1925 2375 1925
 Text Label 1025 3925 2    50   ~ 0
 GPIO_0
 Wire Wire Line
@@ -419,13 +417,11 @@ F 3 "" H 4450 3825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1025 1925 0    50   Input ~ 0
-SSP1_MISO
+VGA_CLK
 Text HLabel 1025 2025 0    50   Input ~ 0
-SSP1_MOSI
+VGA_SDIO
 Text HLabel 1025 3625 0    50   Input ~ 0
-SSP1_SEL
-Text HLabel 2375 1925 2    50   Input ~ 0
-SSP1_SCK
+VGA_CS
 Text Label 2375 4325 0    50   ~ 0
 SPIFI_MOSI
 $EndSCHEMATC
